@@ -1,0 +1,12 @@
+{
+    "name": "audio-stream-server",
+    "version": "1.0.0",
+    "description": "Lightweight Node.js server for audio streaming",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "ws": "^8.13.0"
+    }
+  }
