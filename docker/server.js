@@ -8,7 +8,6 @@ wss.on('connection', ws => {
   console.log('Client connected');
   
   ws.on('message', message => {
-    // Echo audio data or process it
     ws.send(message);
   });
 
